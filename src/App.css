@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/imgs/bg-image.jpg"); /* Your image url */
+    background-attachment: fixed;  /* Make background img fixed */
+    background-repeat: no-repeat;  /* Don't repeat the img */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Pull img to center */
+}
+.cards{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card{
+    margin-top: 10px;
+}
